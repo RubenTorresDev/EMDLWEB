@@ -1,0 +1,125 @@
+.tienda {
+  padding: 2rem; /* Usa rem para padding */
+  background-color: #DFF4DF;
+  font-family: 'Arial', sans-serif;
+}
+
+.tienda h1 {
+  text-align: center;
+  font-size: 2.5rem; /* Usa rem para el tamaño de fuente */
+  margin-bottom: 2rem; /* Usa rem para márgenes */
+  color: #333;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem; /* Usa rem para el espacio entre productos */
+}
+
+.producto {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px;
+  padding: 1rem; /* Usa rem para padding */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.producto:hover {
+  transform: translateY(-5px);
+}
+
+.producto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.producto h2 {
+  font-size: 1.2rem; /* Usa rem para el tamaño de fuente */
+  margin: 0.625rem 0; /* Usa rem para márgenes */
+  color: #555;
+}
+
+.producto p {
+  font-size: 1rem; /* Usa rem para el tamaño de fuente */
+  color: #777;
+}
+
+.producto button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.625rem 1rem; /* Usa rem para padding */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.producto button:hover {
+  background-color: #0056b3;
+}
+
+.carrito {
+  margin-top: 3rem; /* Usa rem para márgenes */
+  padding: 2rem; /* Usa rem para padding */
+  background-color: #DFF4DF;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.carrito h2 {
+  font-size: 1.8rem; /* Usa rem para el tamaño de fuente */
+  margin-bottom: 2rem; /* Usa rem para márgenes */
+  color: #333;
+}
+
+.producto-carrito {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem; /* Usa rem para márgenes */
+  padding: 1rem; /* Usa rem para padding */
+  border-bottom: 1px solid #eee;
+}
+
+.producto-carrito span {
+  font-size: 1rem; /* Usa rem para el tamaño de fuente */
+  color: #555;
+}
+
+.producto-carrito button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 0.3125rem 0.625rem; /* Usa rem para padding */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.producto-carrito button:hover {
+  background-color: #c82333;
+}
+
+.carrito h3 {
+  font-size: 1.5rem; /* Usa rem para el tamaño de fuente */
+  text-align: right;
+  color: #333;
+}
+
+/* Media Queries para dispositivos más pequeños */
+@media (max-width: 768px) {
+  .producto {
+    width: 90%; /* Asegura que el producto ocupe casi todo el ancho disponible */
+  }
+
+  .carrito {
+    padding: 1rem; /* Reduce el padding */
+  }
+}

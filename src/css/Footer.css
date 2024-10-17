@@ -1,0 +1,26 @@
+.footer {
+  background-color: #FFA8B7;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* Asegura que no haya desbordamiento */
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icons i {
+  margin: 0 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+.footer-text p {
+  margin: 5px 0;
+}

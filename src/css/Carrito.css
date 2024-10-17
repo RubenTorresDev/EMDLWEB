@@ -1,0 +1,87 @@
+.carrito {
+  position: fixed;
+  top: 0;
+  right: -110%; /* Asegúrate de que esté completamente oculto */
+  width: 80vw; /* Usa vw para que el tamaño sea relativo al ancho de la ventana */
+  max-width: 500px; /* Limita el tamaño máximo */
+  height: 100%;
+  background-color: #B3D6DC;
+  color: #fff;
+  transition: right 0.3s ease;
+  padding: 2rem; /* Usa rem para padding */
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.carrito.visible {
+  right: 0;
+}
+
+.carrito-toggle {
+  position: fixed;
+  right: 10px; /* Ajusta la posición del botón según sea necesario */
+  top: 30px;
+  background-color: #F6A8B6;
+  color: #000000;
+  padding: 1rem; /* Usa rem para padding */
+  cursor: pointer;
+  z-index: 1001;
+  border: 2px solid #ffffff;
+  font-family: 'Helvetica', sans-serif; /* Aplica la fuente Helvetica */
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10%;
+}
+
+.producto-carrito {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem; /* Usa rem para márgenes */
+}
+
+.producto-carrito img.miniatura {
+  width: 5rem; /* Usa rem para el tamaño de la imagen */
+  height: auto;
+  margin-right: 1rem; /* Usa rem para márgenes */
+}
+
+.checkout {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 1rem; /* Usa rem para padding */
+  width: 100%;
+  cursor: pointer;
+  margin-top: 2rem; /* Usa rem para márgenes */
+}
+
+.close-button {
+  position: absolute;
+  top: 1rem; /* Usa rem para el posicionamiento superior */
+  right: 1rem; /* Usa rem para el posicionamiento derecho */
+  background: none;
+  border: none;
+  font-size: 1.5rem; /* Usa rem para el tamaño de la fuente */
+  cursor: pointer;
+  color: #000;
+}
+
+
+
+/* Media Queries para dispositivos más pequeños */
+@media (max-width: 768px) {
+  .carrito {
+    width: 100vw; /* Asegura que el carrito ocupe todo el ancho disponible */
+    padding: 1rem; /* Reduce el padding en pantallas más pequeñas */
+  }
+
+  .carrito-toggle {
+    right: 5px; /* Ajusta la posición del botón en pantallas más pequeñas */
+    padding: 0.5rem; /* Reduce el padding del botón */
+  }
+
+  .producto-carrito img.miniatura {
+    width: 4rem; /* Ajusta el tamaño de la imagen en pantallas más pequeñas */
+  }
+}

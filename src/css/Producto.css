@@ -1,0 +1,86 @@
+.producto-detalle {
+  margin-top: 4rem; 
+  display: flex;
+  flex-direction: row; /* Asegura que los elementos estén en fila */
+  justify-content: space-between;
+  padding: 2rem; /* Usa rem para padding */
+  background-color: #DFF4DF;
+  color: #000000;
+}
+
+.imagen-producto img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 1rem; /* Usa rem para márgenes */
+}
+
+.detalles-producto {
+  max-width: 50vw; /* Usa vw para que el tamaño sea relativo al ancho de la ventana */
+  margin-left: 2rem; /* Usa rem para márgenes */
+}
+
+.detalles-producto h1 {
+  font-size: 1.5rem; /* Usa rem para el tamaño de fuente */
+  margin-bottom: 0.5rem; /* Usa rem para márgenes */
+}
+
+.precio {
+  font-size: 1.25rem; /* Usa rem para el tamaño de fuente */
+  margin-bottom: 0.5rem; /* Usa rem para márgenes */
+}
+
+.tallas, .cantidad {
+  margin-bottom: 0.5rem; /* Usa rem para márgenes */
+}
+
+.tallas button {
+  margin-right: 0.5rem; /* Usa rem para márgenes */
+  padding: 0.5rem 1rem; /* Usa rem para padding */
+  border: none;
+  background-color: #fff;
+  color: #e07a5f;
+  cursor: pointer;
+}
+
+.tallas button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.cantidad select {
+  padding: 0.5rem; /* Usa rem para padding */
+}
+
+.agregar-carrito {
+  display: block;
+  margin-top: 0.5rem; /* Usa rem para márgenes */
+  padding: 0.5rem; /* Usa rem para padding */
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.descripcion {
+  margin-top: 1rem; /* Usa rem para márgenes */
+  font-size: 0.875rem; /* Usa rem para el tamaño de fuente */
+}
+
+/* Media Queries para dispositivos más pequeños */
+@media (max-width: 768px) {
+  .producto-detalle {
+    flex-direction: column; /* Cambia la dirección del flex a columna en pantallas pequeñas */
+    align-items: center; /* Centra los elementos */
+    padding: 1rem; /* Reduce el padding */
+  }
+
+  .detalles-producto {
+    max-width: 90%; /* Asegura que el contenedor ocupe casi todo el ancho disponible */
+    margin-left: 0; /* Elimina el margen izquierdo */
+  }
+
+  .imagen-producto img {
+    margin-right: 0; /* Elimina el margen derecho */
+    margin-bottom: 1rem; /* Añade un margen inferior */
+  }
+}

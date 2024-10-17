@@ -1,0 +1,25 @@
+.BannerSectionGira {
+  background-color: #DFF4DF; 
+  color: #000; /* Color del texto */
+  padding: 2rem; /* Usa rem para padding */
+  text-align: center; /* Centrar el contenido */
+}
+
+.logo-img {
+  width: 80vw; /* Usa vw para que el tamaño sea relativo al ancho de la ventana */
+  max-width: var(--global-width); /* Limita el tamaño máximo */
+  height: auto;
+  margin-top: 4rem; /* Usa rem para márgenes */
+}
+
+/* Media Queries para dispositivos más pequeños */
+@media (max-width: 768px) {
+  .BannerSectionGira {
+    padding: 1rem; /* Reduce el padding en pantallas más pequeñas */
+  }
+
+  .logo-img {
+    width: 90vw; /* Aumenta el tamaño relativo en pantallas más pequeñas */
+   
+  }
+}
