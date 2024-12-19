@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EMDLWEB/static/css/main.00dfe5b6.css",
-    "main.js": "/EMDLWEB/static/js/main.70d11e54.js",
+    "main.js": "/EMDLWEB/static/js/main.015fac68.js",
     "static/js/488.44b1b693.chunk.js": "/EMDLWEB/static/js/488.44b1b693.chunk.js",
     "static/media/banner.png": "/EMDLWEB/static/media/banner.9e19e49a7cce4a793d4f.png",
     "static/media/PITO BAILONGO APAISADO.mp4": "/EMDLWEB/static/media/PITO BAILONGO APAISADO.75f09ffb845f56404efc.mp4",
@@ -27,11 +27,11 @@
     "static/media/fa-v4compatibility.woff2": "/EMDLWEB/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/EMDLWEB/index.html",
     "main.00dfe5b6.css.map": "/EMDLWEB/static/css/main.00dfe5b6.css.map",
-    "main.70d11e54.js.map": "/EMDLWEB/static/js/main.70d11e54.js.map",
+    "main.015fac68.js.map": "/EMDLWEB/static/js/main.015fac68.js.map",
     "488.44b1b693.chunk.js.map": "/EMDLWEB/static/js/488.44b1b693.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00dfe5b6.css",
-    "static/js/main.70d11e54.js"
+    "static/js/main.015fac68.js"
   ]
 }
