@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/EMDLWEB/static/css/main.00dfe5b6.css",
+    "main.js": "/EMDLWEB/static/js/main.70d11e54.js",
+    "static/js/488.44b1b693.chunk.js": "/EMDLWEB/static/js/488.44b1b693.chunk.js",
+    "static/media/banner.png": "/EMDLWEB/static/media/banner.9e19e49a7cce4a793d4f.png",
+    "static/media/PITO BAILONGO APAISADO.mp4": "/EMDLWEB/static/media/PITO BAILONGO APAISADO.75f09ffb845f56404efc.mp4",
+    "static/media/GIRA2024cartelfinal.jpg": "/EMDLWEB/static/media/GIRA2024cartelfinal.5fe212176c7810cbab89.jpg",
+    "static/media/portada.jpg": "/EMDLWEB/static/media/portada.3592f9b7e09227aae7ad.jpg",
+    "static/media/logo2.png": "/EMDLWEB/static/media/logo2.2f84735f7470bf5a5682.png",
+    "static/media/hummus.jpg": "/EMDLWEB/static/media/hummus.8ac0f166dbb35d94f33a.jpg",
+    "static/media/fa-solid-900.ttf": "/EMDLWEB/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/monstruitologobueno.png": "/EMDLWEB/static/media/monstruitologobueno.09bec41bdf5b7d5eeec8.png",
+    "static/media/DISEÑ RENDER 3.jpg": "/EMDLWEB/static/media/DISEÑ RENDER 3.6e8da2e6a6d78c2ce353.jpg",
+    "static/media/RENDER PARA WEB DISEÑO 1.jpg": "/EMDLWEB/static/media/RENDER PARA WEB DISEÑO 1.18468da8547c9aae4758.jpg",
+    "static/media/fa-brands-400.ttf": "/EMDLWEB/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/MERCH RENDER 2.jpg": "/EMDLWEB/static/media/MERCH RENDER 2.93858a123fc3bb01b61e.jpg",
+    "static/media/fa-solid-900.woff2": "/EMDLWEB/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/EMDLWEB/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/EMDLWEB/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/AquaSplash.jpeg": "/EMDLWEB/static/media/AquaSplash.4b426514242ec42fae94.jpeg",
+    "static/media/logochiquito.png": "/EMDLWEB/static/media/logochiquito.b97534de01f0bcd36b93.png",
+    "static/media/siglas.png": "/EMDLWEB/static/media/siglas.cec6084e62bcc08d3921.png",
+    "static/media/fa-regular-400.woff2": "/EMDLWEB/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/portadatienda.jpg": "/EMDLWEB/static/media/portadatienda.d572aca20ff2ecc72bb7.jpg",
+    "static/media/fa-v4compatibility.ttf": "/EMDLWEB/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/EMDLWEB/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/EMDLWEB/index.html",
+    "main.00dfe5b6.css.map": "/EMDLWEB/static/css/main.00dfe5b6.css.map",
+    "main.70d11e54.js.map": "/EMDLWEB/static/js/main.70d11e54.js.map",
+    "488.44b1b693.chunk.js.map": "/EMDLWEB/static/js/488.44b1b693.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00dfe5b6.css",
+    "static/js/main.70d11e54.js"
+  ]
+}
